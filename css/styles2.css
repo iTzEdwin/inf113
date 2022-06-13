@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    padding: 90px 0px 0;
+    background-image: url(https://img.freepik.com/vector-gratis/borde-abstracto-neon-sobre-fondo-morado-oscuro_53876-99055.jpg?w=2000);
+}
+.header{
+    background-color: #034574;
+    height: 8rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 0 4rem;
+    line-height: 8rem;
+    color: white;
+    text-decoration: none;
+}
+.nav_menu{
+    display: flex ;
+    margin-right: 4rem;
+    list-style: none;
+}
+.nav_menu_item{
+    font-size: 1.8rem;
+    margin: 0 1rem ;
+    line-height: 8rem;
+    text-transform: uppercase;
+    width: max-content;
+}
+.nav_menu_link{
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.3rem;
+    color: white;
+    text-decoration: none;
+}
+.nav_menu_link:hover {
+    background-color: #51569d;
+    transition: 0.5s;
+}
+main{
+    margin-top: 3rem;
+}
+.datos{
+    width: 50%;
+    margin: 20px auto;
+    color: #fff;
+    padding: 15px;
+    font-size: 0.9rem;
+}
+.sino{
+    width: 50%;
+    margin: 20px auto;
+    color: #fff;
+    padding: 15px;
+    font-size: 1.2rem;
+}
+div{
+    display: justify;
+    margin-top: 3rem;
+    margin-left: 6rem;
+}
+.titu{
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+.div_img{
+    display: flex;
+}
+video{
+    text-align: center;
+}

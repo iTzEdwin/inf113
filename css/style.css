@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    padding: 90px 0px 0;
+}
+.header{
+    background-color: #034574;
+    height: 8rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 0 4rem;
+    line-height: 8rem;
+    color: white;
+    text-decoration: none;
+}
+.nav_menu{
+    display: flex ;
+    margin-right: 4rem;
+    list-style: none;
+}
+.nav_menu_item{
+    font-size: 1.8rem;
+    margin: 0 1rem ;
+    line-height: 8rem;
+    text-transform: uppercase;
+    width: max-content;
+}
+.nav_menu_link{
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.3rem;
+    color: white;
+    text-decoration: none;
+}
+.nav_menu_link:hover {
+    background-color: #51569d;
+    transition: 0.5s;
+}
+main{
+    margin-top: 2.2rem;
+    background-image: url(https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/sites/4/2019/01/4-min.jpg);
+}
+h1{
+    margin-top: 1rem;
+    text-align: center;
+    color: #fff;
+}
+.div_img{
+    display: flex;
+    padding: 1.5rem;
+}
+.sin_snc{
+    width: 50%;
+    margin: 20px auto;
+    color: #fff;
+    padding: 15px;
+}
+.img1{
+    margin-left: 15%;
+
+}
+.img2{
+    margin-left: 15%;
+
+}
+.img3{
+    margin-left: 15%;
+
+}
+.img4{
+    margin-left: 15%;
+
+}
+.img5{
+    margin-left: 15%;
+
+}
+.ttls{
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: none;
+    color: blueviolet;
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+html{
+    font-size: 62.5%;
+    font-family: 'Lobster', cursive;
+ }
+ body{
+    font-size: 16px;
+ }/*en este codigo un rem vale 10 pixeles*/
+h1{
+    color: lightcoral;
+    text-align: center;
+    font-size: 2rem;  
+    font-family: Arial, Helvetica, sans-serif;  
+}
+span{
+    font-size: 2rem;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav_pr{
+    background-color: #0097a7;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav_pr *{
+    background-color: #0097a7;
+    text-decoration: none;
+    color: white;
+
+}
+.contenedor{
+    width: 120rem;
+    margin: 0 auto
+}
+.nav_dv{
+    background-color: #0097a7;
+
+}
